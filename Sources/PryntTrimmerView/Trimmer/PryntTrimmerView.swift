@@ -66,8 +66,8 @@ public protocol TrimmerViewDelegate: class {
     private let positionBar = UIView()
     private let leftHandleKnob = UIView()
     private let rightHandleKnob = UIView()
-    private let leftMaskView = UIView()
-    private let rightMaskView = UIView()
+    public let leftMaskView = UIView()
+    public let rightMaskView = UIView()
 
     // MARK: Constraints
 
